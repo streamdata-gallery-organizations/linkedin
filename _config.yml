@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: linkedin.api.streamdata.gallery
+title: Streamdata Gallery LinkedIn
+url: linkedin.streamdata.gallery
 tag: LinkedIn
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: linkedin
 github_branch: master
 collections:
