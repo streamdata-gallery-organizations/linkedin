@@ -1,48 +1,207 @@
 ---
 name: LinkedIn
+x-slug: linkedin
 description: With over 100 million users representing over 200 countries around the
   world, LinkedIn is a fast-growing professional networking site that allows members
   to create business contacts, search for jobs, and find potential clients. Individuals
   have the ability to create their own professional profile that can be viewed by
   others in their network, and also view the profiles of their own contacts.
-image: https://avatars.githubusercontent.com/u/357098?v=3
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
 x-kinRank: "8"
 x-alexaRank: ""
-tags:
-- Stack Network
-- Stack
-- Social Networks
-- Social Network
-- Social API
-- Social
-- Partners
-- My API Stack
-- Indie EdTech Data Jam
-created: "2018-03-25"
-modified: "2018-03-25"
-url: https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/apis.yaml
+tags: LinkedIn
+created: "2018-05-22"
+modified: "2018-05-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/apis.md
 specificationVersion: "0.14"
 apis:
-- name: LinkedIn
-  description: With over 100 million users representing over 200 countries around
-    the world, LinkedIn is a fast-growing professional networking site that allows
-    members to create business contacts, search for jobs, and find potential clients
-  image: https://avatars.githubusercontent.com/u/357098?v=3
-  humanURL: ""
-  baseURL: https://api.linkedin.com//v1
-  tags:
-  - Stack Network
-  - Stack
-  - Social Networks
-  - Social Network
-  - Social API
-  - Social
-  - Partners
-  - My API Stack
-  - Indie EdTech Data Jam
+- name: LinkedIn Add Companies Updates Key Update Key Update Comments As Company
+  x-api-slug: linkedin
+  description: Post companies  updates key update key update comments as company
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  humanURL: http://linkedin.com
+  baseURL: https://api.linkedin.com//v1//companies/{id}/updates/key={update-key}/update-comments-as-company/
+  tags: Companies, , Updates, Key, Update, Key, Update, Comments, As, Company
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/companies-id-company-statistics-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/companiesidupdateskeyupdatekeyupdatecommentsascompany-post-openapi.md
+- name: LinkedIn Get People
+  x-api-slug: linkedin
+  description: Get people ~
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  humanURL: http://linkedin.com
+  baseURL: https://api.linkedin.com//v1//people/~
+  tags: People
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/people-get-openapi.md
+- name: LinkedIn Add People ~ Shares
+  x-api-slug: linkedin
+  description: Post people ~ shares
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  humanURL: http://linkedin.com
+  baseURL: https://api.linkedin.com//v1//people/shares
+  tags: People, Shares
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/peopleshares-post-openapi.md
+- name: LinkedIn Get Companies Is Company Share Enabled
+  x-api-slug: linkedin
+  description: Get companies  is company share enabled
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  humanURL: http://linkedin.com
+  baseURL: https://api.linkedin.com//v1//companies/{id}/is-company-share-enabled
+  tags: Companies, , Is, Company, Share, Enabled
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/companiesidiscompanyshareenabled-get-openapi.md
+- name: LinkedIn Get Companies Relation To Viewer Is Company Share Enabled
+  x-api-slug: linkedin
+  description: Get companies  relation to viewer is company share enabled
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  humanURL: http://linkedin.com
+  baseURL: https://api.linkedin.com//v1//companies/{id}/relation-to-viewer/is-company-share-enabled
+  tags: Companies, , Relation, To, Viewer, Is, Company, Share, Enabled
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/companiesidrelationtovieweriscompanyshareenabled-get-openapi.md
+- name: LinkedIn Get Companies
+  x-api-slug: linkedin
+  description: Get companies
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  humanURL: http://linkedin.com
+  baseURL: https://api.linkedin.com//v1//companies/
+  tags: Companies
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/companies-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/companies-get-openapi.md
+- name: LinkedIn Get Companies
+  x-api-slug: linkedin
+  description: Get companies
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  humanURL: http://linkedin.com
+  baseURL: https://api.linkedin.com//v1//companies/{id}
+  tags: Companies
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/companiesid-get-openapi.md
+- name: LinkedIn Get Companies (,name,ticker,description)
+  x-api-slug: linkedin
+  description: Get companies  (,name,ticker,description)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  humanURL: http://linkedin.com
+  baseURL: https://api.linkedin.com//v1//companies/{id}:(id,name,ticker,description)
+  tags: Companies, , (,name,ticker,description)
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/companiesididnametickerdescription-get-openapi.md
+- name: LinkedIn Get Companies Updates
+  x-api-slug: linkedin
+  description: Get companies  updates
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  humanURL: http://linkedin.com
+  baseURL: https://api.linkedin.com//v1//companies/{id}/updates
+  tags: Companies, , Updates
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/companiesidupdates-get-openapi.md
+- name: LinkedIn Get Companies Updates Key Update Key
+  x-api-slug: linkedin
+  description: Get companies  updates key update key
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  humanURL: http://linkedin.com
+  baseURL: https://api.linkedin.com//v1//companies/{id}/updates/key={update-key}
+  tags: Companies, , Updates, Key, Update, Key
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/companiesidupdateskeyupdatekey-get-openapi.md
+- name: LinkedIn Get Companies Updates Key Update Key Update Comments
+  x-api-slug: linkedin
+  description: Get companies  updates key update key update comments
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  humanURL: http://linkedin.com
+  baseURL: https://api.linkedin.com//v1//companies/{id}/updates/key={update-key}/update-comments
+  tags: Companies, , Updates, Key, Update, Key, Update, Comments
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/companiesidupdateskeyupdatekeyupdatecomments-get-openapi.md
+- name: LinkedIn Get Companies Updates Key Update Key Likes
+  x-api-slug: linkedin
+  description: Get companies  updates key update key likes
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  humanURL: http://linkedin.com
+  baseURL: https://api.linkedin.com//v1//companies/{id}/updates/key={update-key}/likes
+  tags: Companies, , Updates, Key, Update, Key, Likes
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/companiesidupdateskeyupdatekeylikes-get-openapi.md
+- name: LinkedIn Add Companies Shares
+  x-api-slug: linkedin
+  description: Post companies  shares
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  humanURL: http://linkedin.com
+  baseURL: https://api.linkedin.com//v1//companies/{id}/shares
+  tags: Companies, , Shares
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/companiesidshares-post-openapi.md
+- name: LinkedIn Get Companies Num Followers
+  x-api-slug: linkedin
+  description: Get companies  num followers
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  humanURL: http://linkedin.com
+  baseURL: https://api.linkedin.com//v1//companies/{id}/num-followers
+  tags: Companies, , Num, Followers
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/companiesidnumfollowers-get-openapi.md
+- name: LinkedIn Get Companies Historical Follow Statistics
+  x-api-slug: linkedin
+  description: Get companies  historical follow statistics
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  humanURL: http://linkedin.com
+  baseURL: https://api.linkedin.com//v1//companies/{id}/historical-follow-statistics
+  tags: Companies, , Historical, Follow, Statistics
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/companiesidhistoricalfollowstatistics-get-openapi.md
+- name: LinkedIn Get Companies Historical Status Update Statistics
+  x-api-slug: linkedin
+  description: Get companies  historical status update statistics
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  humanURL: http://linkedin.com
+  baseURL: https://api.linkedin.com//v1//companies/{id}/historical-status-update-statistics
+  tags: Companies, , Historical, Status, Update, Statistics
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/companiesidhistoricalstatusupdatestatistics-get-openapi.md
+- name: LinkedIn Get Companies Company Statistics
+  x-api-slug: linkedin
+  description: Get companies  company statistics
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  humanURL: http://linkedin.com
+  baseURL: https://api.linkedin.com//v1//companies/{id}/company-statistics
+  tags: Companies, , Company, Statistics
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/companiesidcompanystatistics-get-openapi.md
+- name: LinkedIn
+  x-api-slug: linkedin
+  description: With over 100 million users representing over 200 countries around
+    the world, LinkedIn is a fast-growing professional networking site that allows
+    members to create business contacts, search for jobs, and find potential clients.
+    Individuals have the ability to create their own professional profile that can
+    be viewed by others in their network, and also view the profiles of their own
+    contacts.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/LinkedIn-Logo.png
+  humanURL: http://linkedin.com
+  baseURL: https://api.linkedin.com//v1
+  tags: LinkedIn
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/openapi.md
 x-common:
 - type: x-authentication
   url: https://developer.linkedin.com/documents/authentication
