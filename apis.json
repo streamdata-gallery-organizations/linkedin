@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - LinkedIn",
+	"description": "This is a repository of linkedin APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/linkedin.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://linkedin.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "LinkedIn",
+			"x-api-slug": "linkedin",
+			"description": "DZone Software provides tools and processes to help customers accelerate productivity through agile learning and knowledge-centered collaboration.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg",
+			"humanURL": "http://linkedin.com",
+			"baseURL": "https://api.linkedin.com//v1",
+			"tags": "LinkedIn",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "LinkedIn",
+	"include": [
+		{
+			"name": "LinkedIn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/linkedin/master/_listings/linkedin/apis.yaml"
+		}
+	]
+}
